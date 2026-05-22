@@ -21,7 +21,7 @@ module sdram(
 	output		    [12:0]		DRAM_ADDR,
 	output		     [1:0]		DRAM_BA,
 	output		          		DRAM_CAS_N,
-	output		          		DRAM_CKE,
+	output		          		DRAM_CKE,  //clock enable
 	output		          		DRAM_CLK,
 	output		          		DRAM_CS_N,
 	inout 		    [31:0]		DRAM_DQ,
